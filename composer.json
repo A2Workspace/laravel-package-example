@@ -1,0 +1,30 @@
+{
+    "name": "dummy-team/dummy",
+    "description": "A Laravel package example.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dummy",
+            "email": "dummy@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "4.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "DummyTeam\\Dummy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {}
+    }
+}
